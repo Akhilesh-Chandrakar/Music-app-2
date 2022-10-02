@@ -1,0 +1,110 @@
+img{
+    height:100px;
+    width:100px;
+}
+body{
+    background-color: black;
+}
+
+.content{
+    display: flex;
+   justify-content: space-between;
+   margin-left: 40px;
+   margin-top: 30px;
+}
+.content img{
+    width:350px;
+    height:400px;
+}
+.inner{
+    margin-left: 30px;
+    color: aqua;
+}
+.main-Button{
+   border:2px solid rgb(197, 191, 191);
+   border-radius: 10px;
+   margin:10px;
+}
+.aside{
+    display:flex;
+    margin: 60px;
+    background-color: black;
+    justify-content: space-between;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    
+    margin: 23px 10px;
+    border-radius: 12px;
+    background-image: url("man-singing-on-stage.jpg" );
+}
+.songitemcontainer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#progress{
+    width: 80vw;
+}
+.songItem{
+  
+    height: 45px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: 12px 22px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    height: 30px;
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.songlist{
+    margin: 23px 28px;
+    font-size: 1em;
+    text-align: justify;
+}
+.icons{
+    margin: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
